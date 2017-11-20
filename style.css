@@ -1,15 +1,23 @@
 body {
     padding: 20px;
     background: -webkit-linear-gradient(left, rgba(235,235,235,1) 0%, rgba(230,224,223,1) 46%, rgba(224,221,224,1) 54%, rgba(219,213,212,1) 64%, rgba(201,199,201,1) 100%);
-    font-family:'Open Sans', sans-serif;
+    font-family:'Montserrat', serif;
     text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', serif;
+  text-align:center;
 }
 
+a{
+  text-decoration: none;
+}
 
+mark {
+  color: grey;
+  background-color: #cfcbcb;
+}
 .socialmedia{
   display: inline;
 }
@@ -24,4 +32,96 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-align: justify;
   line-height: 180%;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px #888888;
 }
+
+.tomato {
+  color: #e64d54;
+  text-align:center;
+}
+
+
+.button {
+  background-color: #e64d54;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+ button:visited{
+   color:white;
+ }
+
+a i {
+  font-size: 5em;
+}
+
+.photoresize {
+
+    width: 115px;
+    height: auto;
+}
+
+
+.movieboxtext {
+ padding: 1px 5px;
+ margin: 14px;
+
+}
+#profilepic {
+  margin-left: 165px;
+  border-radius: 50%;
+  height: 125px;;
+  width:auto;
+  border: 2px solid #cfcfcf; /*light grey */
+}
+
+
+#introlink {
+  color:white;
+}
+
+introlink:visited{
+  color: white;
+}
+
+#socialmedia {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px 21px;
+}
+
+#linkedin{
+  margin: 0px 20px;
+}
+
+#movies {
+  margin-top: 25px;
+}
+
+  a:visited {
+    color: #cfcfcf;
+    text-decoration: none;
+  }
+
+  #hulotposterpic{
+    margin-top: 40px;
+  }
+
+  #alienposterpic{
+    margin-top: 30px;
+  }
+
+  #alientextbox {
+    width: 325px;
+    height:  200px;
+
+  }
